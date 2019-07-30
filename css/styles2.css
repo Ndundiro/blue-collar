@@ -2,9 +2,9 @@
 /* // css file in div class-container fluid in services.html */
 
 /* // background image for the services  */
-.service {
+/* .service {
     background-color: lightsteelblue;
-}
+} */
 /* /* // background image should be uniform **************** */
 
 /* // font family choosing google-fonts  */
@@ -12,36 +12,29 @@
     text-align:center;
 }
 h1{
-    font-family: 'Lacquer', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size:30px;
     text-align:center;  
 }
-/* // images for the services (8 images) */
-#img-roofing2,#img-painter{
-    width:250px;
-}
+/* // images stylesfor the services (8 images) */
 
-#img-electrican,#img-renovation1,#img-welding1,#img-carpenter{
-    width:250px;    
-}
-#img-renovation1{
-    height:200px;
-}
 #img-style{
     width:250px;
     height: 250px;
-    padding-left:15px;
+    padding-left:30px;
+    /* float: right; */
 }
-/* // images for done with the profesional workers  */
+/* // for done with the profesional workers heading  */
 #text-worker{
     position: absolute;
-    text-align:center;
+    text-align:right;
     /* top:40%; */
-    padding-left:50px;
-    font-family: 'Lacquer', sans-serif;
-    padding-top:85px;
+    margin-left:70px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top:85px;
+    color:blue;
+    background-color:white;
+    text-decoration:underline;
 }
-#text-carpenter,#text-electrican,#text-painter,#text-renovation1,#text-roofing2,#text-renovation1,#text-welding1{
-    
-}
+
 
