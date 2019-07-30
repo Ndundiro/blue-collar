@@ -2,12 +2,21 @@
 
 /* // background image for the services  */
 body {
-    background-image:url()
+    background-image:url(..)
 }
-/* // background image should be uniform */
+/* /* // background image should be uniform **************** */
+
 /* // font family choosing google-fonts  */
+.jumbotron-fluid{
+    text-align:center;
+}
 h1{
     font-family: 'Lacquer', sans-serif;
     font-size:30px;
-    
+    text-align:center;  
+}
+/* // images for the services (8 images) */
+#img-plumber,#img-carpenter,#img-electrican,#img-painter,#img-renovation1,#img-roofing2,#img-renovation1,#img-welding1{
+    width:290px;
+    height:500vh;
 }
