@@ -44,5 +44,9 @@ h1{
     cursor: pointer;
     text-decoration:underline;
 }
+/* // div container 2 for the black background */
+#back-g{
+    width:1250px;
+    height:500px;
 
-
+}
