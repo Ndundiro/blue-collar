@@ -1,5 +1,13 @@
+/* // css file in div class-container fluid in services.html */
+
 /* // background image for the services  */
 body {
-    background-image:()
+    background-image:url()
 }
 /* // background image should be uniform */
+/* // font family choosing google-fonts  */
+h1{
+    font-family: 'Lacquer', sans-serif;
+    font-size:30px;
+    
+}
