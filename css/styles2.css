@@ -2,9 +2,7 @@
 /* // css file in div class-container fluid in services.html */
 
 /* // background image for the services  */
-/* .service {
-    background-color: lightsteelblue;
-} */
+
 /* /* // background image should be uniform **************** */
 
 /* // font family choosing google-fonts  */
@@ -22,31 +20,22 @@ h1{
 /* // images stylesfor the services (8 images) */
 
 #img-style{
-    width:300px;
-    height: 250px;
-    padding-left:30px;
-    /* float: right; */
+    width:250px;
+    height:250px;
 }
 /* // for done with the profesional workers heading  */
 #text-worker{
     position: absolute;
     text-align:right;
-    /* top:40%; */
     margin-left:70px;
     font-family: 'Times New Roman', Times, serif;
     margin-top:85px;
     color:blue;
-    background-color:white;
-    
+    background-color:white; 
 }
-
 #text-worker:hover {
     cursor: pointer;
     text-decoration:underline;
 }
 /* // div container 2 for the black background */
-#back-g{
-    width:1250px;
-    height:500px;
 
-}
