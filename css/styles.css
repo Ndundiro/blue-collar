@@ -1,0 +1,21 @@
+             /* Top nav styles */
+li .nav-link{
+    color: rgb(220, 241, 234);
+    font-family: monospace;
+}
+.nav-link:hover{
+    color: rgb(101, 230, 230);
+    border-radius: 60px;
+}
+            /*End of Top nav styles */
+/* #title{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}  
+#how-it-works h2{
+    text-align: center;
+    font-size: 40px;
+    font-family: monospace;
+}       */
