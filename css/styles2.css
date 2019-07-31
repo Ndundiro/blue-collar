@@ -1,0 +1,86 @@
+
+/* // css file in div class-container fluid in services.html */
+
+/* // background image for the services  */
+
+/* // font family choosing google-fonts  */
+.jumbotron{
+    text-align:center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: lightblue;
+    font-size: 30px;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:30px;
+    text-align:center;  
+}
+/* // images stylesfor the services (8 images) */
+
+#img-style{
+    width:250px;
+    height:200px;
+    /* float:right; */
+    /* padding:10px; */
+}
+/* // for done with the profesional workers heading  */
+#text-worker{
+    position: absolute;
+    text-align:right;
+    margin-left:70px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top:85px;
+    color:blue;
+    background-color:white; 
+}
+#text-worker:hover {
+    cursor: pointer;
+    text-decoration:underline;
+}
+#img-icon{
+    width:100px;
+    height:100px;
+    float: center;
+}
+#img-icon1{
+    width:100px;
+    height:100px;
+}
+#img-icon2{
+    width:100px;
+    height:100px;
+    /* padding-left:30px; */
+}
+/* // div container 2 for the black background */
+#blue-bk{
+    background-image: url(../assets/icons/light2.jpeg);
+  width:100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:100vh;
+
+}
+.comment{
+    text-align:center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#about-collar{
+    padding-top:150px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 600px) {
+    #img-style{
+        width: 100%;
+        height: 300px;
+        margin-bottom:10px;
+    }
+    #text-worker{
+        position: absolute;
+        text-align:right;
+        margin-left:150px;
+        font-family: 'Times New Roman', Times, serif;
+        margin-top:85px;
+        color:blue;
+        background-color:white; 
+    }
+}
