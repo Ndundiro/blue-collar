@@ -4,6 +4,7 @@
 <head>
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
     <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link rel="stylesheet" href="css/animate.css" type="text/css">
     <script src="js/jquery-3.4.1.js"></script>
     <script src="js/login.js"></script>
     <script src="js/scripts.js"></script>
@@ -15,7 +16,9 @@
     <div class="container-fluid" id="nav-placeholder">
         <div class="sticky-top">
             <nav class="navbar navbar-expand-lg navbar-light bg-primary">
-                <a class="navbar-brand" href="#">BLUE COLLAR SERVICES</a>
+                <!-- <a class="navbar-brand logo" href="#">
+                    <img src="assets/LOGO.png">
+                </a> -->
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -42,7 +45,7 @@
                 </div>
             </nav>
         </div>
-        <div id="title">
+        <div class="animated rubberBand" id="title">
             <h1>BLUE COLLAR SERVICES</h1>
             <p>"If workers of the world want to win all they have to do is recognise their own solidarity"</p>
             <button type="submit" class="btn btn-primary" id="signup"><a href="login.html">Sign Up</a></button>
@@ -138,16 +141,6 @@
                     <p>Email: bluecollar@bluecollar.com</p>
                     <p>LOCATION: Ngong lane plaza</p>
                     <hr>
-                    <div id="social-icons" class="d-inline">
-                        <a href="https://facebook.com"><img src="assets/social_icons/facebook.png"
-                                alt="facebook icon"></a>
-                        <a href="https://twitter.com"><img src="assets/social_icons/twitter.png" alt="twitter.com"></a>
-                        <a href="https://youtube.com"><img src="assets/social_icons/you_tube.png"
-                                alt="youtube icon"></a>
-                        <a href="https://googleplus.com"><img src="assets/social_icons/g_plus.png"
-                                alt="google plus icon"></a>
-                        <a href="https://skype.com"><img src="assets/social_icons/skype.png" alt="skype icon"></a>
-                    </div>
                 </div>
                 <div class="col-md-6">
                     <form id="feedback">
@@ -167,6 +160,16 @@
                     </form>
 
                 </div>
+            </div>
+            <div id="social-icons" class="d-inline">
+                <a href="https://facebook.com"><img src="assets/social_icons/facebook.png"
+                        alt="facebook icon"></a>
+                <a href="https://twitter.com"><img src="assets/social_icons/twitter.png" alt="twitter.com"></a>
+                <a href="https://youtube.com"><img src="assets/social_icons/you_tube.png"
+                        alt="youtube icon"></a>
+                <a href="https://googleplus.com"><img src="assets/social_icons/g_plus.png"
+                        alt="google plus icon"></a>
+                <a href="https://skype.com"><img src="assets/social_icons/skype.png" alt="skype icon"></a>
             </div>
 
         </div>
