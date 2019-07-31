@@ -1,1 +1,17 @@
-
+.top{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.top h3{
+    color: white;
+    text-transform: uppercase;
+}
+.top a{
+    color: white;
+}
+.top a:hover{
+    background-color:white;
+    color: blue;
+}
