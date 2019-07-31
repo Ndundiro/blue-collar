@@ -18,8 +18,9 @@ h1{
 /* // images stylesfor the services (8 images) */
 
 #img-style{
-    width:250px;
-    height:250px;
+    width:190px;
+    height:251px;
+    padding:10px;
 }
 /* // for done with the profesional workers heading  */
 #text-worker{
@@ -51,6 +52,9 @@ h1{
 }
 /* // div container 2 for the black background */
 #blue-bk{
-    background-color: url(..)
+    background-image: url(../assets/icons/light2.jpeg);
+}
+.comment{
+    text-align:center;
 }
 
