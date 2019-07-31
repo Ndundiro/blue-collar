@@ -15,3 +15,25 @@
     background-color:white;
     color: blue;
 }
+.mainc{
+  height: 100px;
+}
+.locations{
+  background-color: rgb(26, 26, 26);
+  height: 700px;
+  color: white;
+  position: fixed;
+  z-index: 2;
+  display: none;
+}
+.locations h5{
+  padding: 20px;
+  cursor: pointer;
+}
+.locations h6{
+  padding: 15px;
+  border:1px solid white;
+  border-width:0 0 1px 0;
+  cursor: pointer;
+
+}
