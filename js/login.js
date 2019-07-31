@@ -67,4 +67,49 @@ $(document).ready(function() {
 
       })
 
+      $(".target-signUp").submit(function() {
+          event.preventDefault();
+          var username = $("#username").val()
+          var email = $("#email").val()
+          var pwd = $("#password").val()
+          var cpwd = $("#cpassword").val()
+
+          if (localEmail !== "") {
+            if (username == "") {
+              alert("Your username is required");
+            } else if (email == "") {
+              alert("Your Email is required");
+            } else if (pwd == "") {
+              alert("Your password os required");
+            } else if (cpwd == "") {
+              alert("Confirm your password")
+            } else if (pwd !== cpwd) {
+              alert("Passwords dont match")
+            } else {
+              localStorage.setItem('username', username);
+              localStorage.setItem('email', email);
+              localStorage.setItem('password', pwd);
+              alert("Account Created. Taking you to Login")
+              window.location.replace("login.html");
+            }
+          } else {
+            if (username == "") {
+              alert("Your username is required");
+            } else if (email == "") {
+              alert("Your Email is required");
+            } else if (pwd == "") {
+              alert("Your password os required");
+            } else if (cpwd == "") {
+              alert("Confirm your password")
+            } else if (pwd !== cpwd) {
+              alert("Passwords dont match")
+            } else {
+              localStorage.setItem('username2', username);
+              localStorage.setItem('email2', email);
+              localStorage.setItem('password2', pwd);
+              alert("Account Created. Taking you to Login")
+              window.location.replace("login.html");
+            }
+          }
+          })
       })
