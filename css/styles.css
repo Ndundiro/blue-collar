@@ -1,21 +1,79 @@
              /* Top nav styles */
-li .nav-link{
-                color: rgb(220, 241, 234);
-                font-family: monospace;
+a{
+     color: white;
+     font-family: monospace;
+     font-size: 20px;
 }
-.nav-link:hover{
+.navbar-nav:hover{
     color: rgb(101, 230, 230);
     border-radius: 60px;
 }
+.brand{
+    color: white;
+}
+.container-fluid{
+    padding:;
+}
                         /*End of Top nav styles */
 #title{ 
+    background-image: url("black.jpg");
+    background-size: cover;
+    height: 708px;
+    background-attachment: fixed;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    color: white;
 }  
 #how-it-works h2{
     text-align: center;
     font-size: 40px;
      font-family: monospace;
  } 
+ html{
+     scroll-behavior: smooth;
+ }
+/*image logo*/
+.logo{
+    width: 100px;
+    height: auto;
+
+}
+
+
+/* nav palce holder*/
+.style{
+    padding: 0 0 0 0 ;
+}
+div.col-md-6{
+    padding: 0 0 0 0 ;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+div.row{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0 ;
+}
+#Contact-us{
+    background-color: #054b96;
+    font-size: 20px;
+}
+
+
+
+ #footer{
+     text-align: center;
+     font-size: 12px;
+ }
+ .nav-text{
+     font:monospace;
+     color: white;
+ }
+ .nav-link{
+     color:blue;
+ }
