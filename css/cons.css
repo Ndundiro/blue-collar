@@ -1,24 +1,30 @@
-.top{
+.top {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: rgb(0, 26, 77);
 }
-.top h3{
-    color: white;
-    text-transform: uppercase;
+
+.top h3 {
+  color: white;
+  text-transform: uppercase;
 }
-.top a{
-    color: white;
+
+.top a {
+  color: white;
 }
-.top a:hover{
-    background-color:white;
-    color: blue;
+
+.top a:hover {
+  background-color: white;
+  color: blue;
 }
-.mainc{
+
+.mainc {
   height: 100px;
 }
-.locations{
+
+.locations {
   background-color: rgb(26, 26, 26);
   height: 700px;
   color: white;
@@ -26,14 +32,58 @@
   z-index: 2;
   display: none;
 }
-.locations h5{
+
+.locations h5 {
   padding: 20px;
   cursor: pointer;
 }
-.locations h6{
-  padding: 15px;
-  border:1px solid white;
-  border-width:0 0 1px 0;
-  cursor: pointer;
 
+.locations h6 {
+  padding: 15px;
+  border: 1px solid white;
+  border-width: 0 0 1px 0;
+  cursor: pointer;
+}
+
+.wall {
+  padding: 0;
+  height: 500px;
+  background-image: url('../assets/constraction/wall.jpg');
+  background-size: cover;
+}
+
+.overlay {
+  width: 100%;
+  height: 500px;
+  background-color: rgba(0, 0, 0, .9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay .wall-data {
+  margin-left: 90px;
+  color: white;
+}
+
+.overlay .wall-data h3 {
+  margin: 0 0 0 20px;
+  font-size: 4em;
+}
+
+.overlay .wall-data p {
+  margin-left: 20px;
+  color: white;
+  margin-top:20px;
+}
+
+.overlay .wall-data .btn {
+  background-color: rgb(0, 26, 77);
+  border-color: rgb(0, 26, 77);
+  margin-top:20px;
+}
+.overlay .wall-data .btn:hover {
+  transition: .5s;
+  background-color: white;
+  color: rgb(0, 26, 77);
 }
