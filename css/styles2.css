@@ -9,6 +9,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: lightblue;
     font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 h1{
     font-family: 'Times New Roman', Times, serif;
@@ -33,6 +34,9 @@ h1{
     color:blue;
     background-color:white; 
 }
+.card-text{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 #text-worker:hover {
     cursor: pointer;
     text-decoration:underline;
@@ -51,6 +55,12 @@ h1{
     height:100px;
     /* padding-left:30px; */
 }
+#img-icon7{
+    width:50px;
+    height:50px;
+    float: center;
+    /* padding-left:30px; */
+}
 /* // div container 2 for the black background */
 #blue-bk{
     background-image: url(../assets/icons/light2.jpeg);
@@ -58,6 +68,7 @@ h1{
   background-size: cover;
   background-repeat: no-repeat;
   height:100vh;
+  /* background-attachement: fixed; */
 
 }
 .comment{
@@ -65,8 +76,14 @@ h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 #about-collar{
-    padding-top:150px;
+    padding-top:100px;
 }
+.card-title1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:30px;
+    color:blue;
+}
+
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 600px) {
     #img-style{
