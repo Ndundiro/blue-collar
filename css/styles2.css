@@ -54,9 +54,18 @@ h1{
 /* // div container 2 for the black background */
 #blue-bk{
     background-image: url(../assets/icons/light2.jpeg);
+  width:100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:100vh;
+
 }
 .comment{
     text-align:center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#about-collar{
+    padding-top:150px;
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 600px) {
