@@ -1,0 +1,9 @@
+@font-face{font-family:appleLogo;src:local("Lucida Grande");unicode-range:U+F8FF}
+.CodeMirror{font-family:Monaco,Menlo,Consolas,"Courier New",monospace!important;border:1px solid #868686;border-radius:6px;color:#1d1c1d;height:auto;-webkit-transform:translateY(0);-moz-transform:translateY(0);-ms-transform:translateY(0);transform:translateY(0);will-change:transform}
+.CodeMirror pre{font-family:inherit}
+.CodeMirror .CodeMirror-sizer{font-size:13px!important;line-height:1.5}
+.CodeMirror .CodeMirror-gutters{background-color:#fbfbfb;border-color:#ebebeb}
+.CodeMirror .CodeMirror-code{font-size:.8rem}
+.CodeMirror .CodeMirror-linenumber{color:#616061}
+.CodeMirror:focus,.CodeMirror:hover{border-color:#616061}
+#file_page .CodeMirror,#snippet_dialog .CodeMirror{height:12rem}
