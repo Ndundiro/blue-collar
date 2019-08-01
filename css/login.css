@@ -82,7 +82,7 @@ small span:hover{
   text-align: center;
 }
 #info{
-  color: white;
+  color: black;
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 580px) {
 
@@ -133,5 +133,8 @@ small span:hover{
     background-color: rgba(0, 0, 0, 0.03);
     color: white;
     background-color: transparent;
+  }
+  #info{
+    color: white;
   }
 }
