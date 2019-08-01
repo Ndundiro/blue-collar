@@ -91,6 +91,14 @@
   background-size: cover;
   background-position: fixed;
 }
+.roofer{
+    padding: 0;
+    height: 500px;
+    background-image: url('../assets/roofing/roofer new.jpeg');
+    background-size: cover;
+    background-position: fixed;
+  
+}
 
 .overlay {
   width: 100%;
