@@ -11,12 +11,12 @@ a{
 .brand{
     color: white;
 }
-.container-fluid{
-    padding:;
-}
                         /*End of Top nav styles */
-#title{ 
-    background-image: url("black.jpg");
+body{
+    font-family: sans-serif;
+}
+#title{
+    background-image: url("background.jpg");
     background-size: cover;
     height: 708px;
     background-attachment: fixed;
@@ -25,20 +25,27 @@ a{
     align-items: center;
     justify-content: center;
     color: white;
+    background-position: center;
 }  
+#title{
+    text-align: center;
+}
 #how-it-works h2{
     text-align: center;
     font-size: 40px;
      font-family: monospace;
- } 
+ }
  html{
      scroll-behavior: smooth;
  }
 /*image logo*/
 .logo{
-    width: 100px;
-    height: auto;
+    width: 10px;
+    height: 10px;
 
+}
+.nav-link{
+    padding: 0;
 }
 
 
@@ -63,7 +70,10 @@ div.row{
     background-color: #054b96;
     font-size: 20px;
 }
-
+.top{
+    background-color: rgb(0, 26, 77);
+    color: white:
+}
 
 
  #footer{
@@ -72,8 +82,54 @@ div.row{
  }
  .nav-text{
      font:monospace;
-     color: white;
+     color: rgb(255, 255, 255);
  }
- .nav-link{
-     color:blue;
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(247, 247, 247);
+    font-family: sans-serif;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    background-color: rgba(26, 248, 237, 0.349);
+    border-radius: 40px;
+}
+ .container-fluid{
+     padding: 0 0 0 0;
+ }
+ .login{
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  justify-content: right;
+ }
+ .btn{
+     border-radius:20px;
+ }
+ #services h2{
+     font-family: sans-serif;
+     color: white;
+     text-align: center;
+     background-color:rgb(0, 26, 77);
+     border-radius:0px;
+ }
+#Contact-us h2{
+    text-align: center;
+    color: white;
+ }
+ #Contact-us p{
+     text-align: center;
+     color:white;
+ }
+ #feedback label{
+     color:white;
+ }
+ #about-us{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     padding: 90px;
+ }
+ #about-us p{
+     font-size: 20px;
+
  }
