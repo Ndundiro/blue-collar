@@ -129,14 +129,49 @@ a {
   font-size: 40px;
   font-family: monospace;
 }
-
+  #services p{
+  text-align: justify;
+  letter-spacing: 1.5px;
+  line-height: 40px;
+  }
+  #how-it-works .col-md-7{
+    padding: 0;
+    border:20px solid rgb(0,0,0);
+    border-width:10px 0;
+  }
+  #how-works{
+    padding: 50px;
+    background: rgb(0,26,77);
+  }
+  #how-works h2{
+    font-family: 'Courgette', cursive;
+    color: white
+  }
+  #how-works li{
+    padding: 20px;
+    color: white;
+    font-style: italic;
+    text-transform: capitalize;
+  }
+  .how-img {
+    padding: 0;
+    background-color: blue;
+    background-image: url("../assets/dig.png");
+    background-position:left ;
+    background-size:cover;
+  }
+  .how-overlay{
+    height: 100%;
+    width:100%;
+    background-color: rgba(0,0,0,.7);
+  }
 /*image logo*/
 .logo {
   width: 10px;
   height: 10px;
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 600px) {
+@media only screen and (min-device-width: 0px) and (max-device-width: 600px) {
   #navbarNav {
     display: none;
   }
