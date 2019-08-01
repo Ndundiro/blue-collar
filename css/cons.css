@@ -66,6 +66,13 @@
   background-size: cover;
   background-position: fixed;
 }
+.painter{
+  padding: 0;
+  height: 500px;
+  background-image: url('../assets/painters/p.jpeg');
+  background-size: cover;
+  background-position: fixed;
+}
 
 .overlay {
   width: 100%;
