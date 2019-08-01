@@ -42,21 +42,20 @@ $(document).ready(function() {
           return false;
         } else if (email == masterUser.email) {
           if (pwd == masterUser.password) {
-            return true;
-            window.location.replace("index.html")
+            window.location.replace("services.html")
           } else {
             alert("invalid password")
           }
         } else if (email == localEmail) {
           if (pwd == localPwd) {
-            window.location.replace("index.html")
+            window.location.replace("services.html")
           } else {
             alert("invalid password")
           }
         } else if (email == localEmail2) {
           if (pwd == localPwd2) {
             // var locauser
-            window.location.replace("index.html")
+            window.location.replace("services.html")
           } else {
             alert("invalid password")
           }
