@@ -1,8 +1,29 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+  font-family: sans-serif;
+}
              /* Top nav styles */
 a{
      color: white;
-     font-family: monospace;
+     /* font-family: monospace; */
      font-size: 20px;
+}
+.topest{
+  padding: 0;
+  background-color: rgb(0, 26, 77);
+
+}
+#navbarNav li a {
+padding:  20px;
+}
+#navbarNav li a:hover {
+background-color: white;
+}
+.navbar-nav{
+  background-color: rgb(0, 26, 77);
+
 }
 .navbar-nav:hover{
     color: rgb(101, 230, 230);
@@ -11,10 +32,38 @@ a{
 .brand{
     color: white;
 }
-                        /*End of Top nav styles */
-body{
-    font-family: sans-serif;
+#login{
+  float: right;
 }
+.mobile-nav{
+  display: none;
+  position: absolute;
+  background-color: rgb(0, 26, 77);
+  list-style: none;
+  justify-content: center;
+}
+.mobile-nav ul{
+  padding: 0;margin: 0;
+}
+#nav-btn{
+  display: none;
+}
+.mobile-nav li{
+  width: 100vw;
+
+  list-style: none;
+  text-align: center;
+  padding:10px;
+}
+.mobile-nav li +:hover {
+  background-color: white;
+  color: rgb(0,26,77)
+}
+.mobile-nav a:hover{
+  text-decoration: none;
+    color: rgb(0,26,77)
+}
+                        /*End of Top nav styles */
 #title{
     background-image: url("background.jpg");
     background-size: cover;
@@ -26,7 +75,7 @@ body{
     justify-content: center;
     color: white;
     background-position: center;
-}  
+}
 #title{
     text-align: center;
 }
@@ -35,22 +84,15 @@ body{
     font-size: 40px;
      font-family: monospace;
  }
- html{
-     scroll-behavior: smooth;
- }
 /*image logo*/
 .logo{
     width: 10px;
     height: 10px;
-
-}
-.nav-link{
-    padding: 0;
 }
 
 
 /* nav palce holder*/
-.style{
+/* .style{
     padding: 0 0 0 0 ;
 }
 div.col-md-6{
@@ -72,7 +114,7 @@ div.row{
 }
 .top{
     background-color: rgb(0, 26, 77);
-    color: white:
+    color: white;
 }
 
 
@@ -132,4 +174,12 @@ div.row{
  #about-us p{
      font-size: 20px;
 
- }
+ } */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 600px) {
+  #navbarNav{
+    display: none;
+  }
+  #nav-btn{
+    display: block;
+  }
