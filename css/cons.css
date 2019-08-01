@@ -52,6 +52,13 @@
   background-size: cover;
   background-position: fixed;
 }
+.carpenter{
+  padding: 0;
+  height: 500px;
+  background-image: url('https://images.unsplash.com/reserve/oIpwxeeSPy1cnwYpqJ1w_Dufer%20Collateral%20test.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');
+  background-size: cover;
+  background-position: fixed;
+}
 
 .overlay {
   width: 100%;
