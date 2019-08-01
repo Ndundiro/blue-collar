@@ -1,11 +1,22 @@
-var feedback = function(name, email, feedback){
+var feedback = function(name, email, feedback) {
   this.name = name;
   this.email = email;
   this.feedback = feedback;
 }
 var usersFeed = []
 $(document).ready(function() {
+  $("#nav-btn2").hide()
 
+  $("#nav-btn").click(function() {
+    $(".mobile-nav").slideToggle()
+    $("#nav-btn").hide()
+      $("#nav-btn2").show()
+  })
+  $("#nav-btn2").click(function() {
+    $(".mobile-nav").slideToggle()
+    $("#nav-btn2").hide()
+      $("#nav-btn").show()
+  })
   $("#feedback").submit(function() {
     event.preventDefault();
 
@@ -13,16 +24,14 @@ $(document).ready(function() {
     var email = $("#email").val();
     var msg = $("textarea").val();
 
-    if(name == "") {
+    if (name == "") {
       alert("Your name is required")
-    }
-    else if(email == "") {
+    } else if (email == "") {
       alert("Your email is required")
-    }
-    else if(msg == "") {
+    } else if (msg == "") {
       alert("Your feedback is required")
-    }else{
-      var newFeed = new feedback(name,email,msg);
+    } else {
+      var newFeed = new feedback(name, email, msg);
 
       usersFeed.push(newFeed)
       console.log(usersFeed);
