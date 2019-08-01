@@ -1,4 +1,7 @@
 # BLUE COLLAR
+
+![logo](https://user-images.githubusercontent.com/52456331/62290941-39754d80-b46b-11e9-856b-f02a113ffadb.png)
+
 #### This app is new in town and is going to help alot of people who are looking for services near by their location and we offer quality workers to help with issue needed by clients for a small fee, 23-06-2019
 #### By ** kevin nyota, alfred ndundiro, hidri abraham, michael maina, steve mitto, ben destiny**
 ## Description
