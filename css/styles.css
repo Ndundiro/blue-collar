@@ -19,7 +19,8 @@ a {
 }
 
 #navbarNav li a {
-  padding: 20px;
+  font-size: 20px; 
+  padding: 10px;
 }
 
 #navbarNav li a:hover {
@@ -165,6 +166,26 @@ a {
     width:100%;
     background-color: rgba(0,0,0,.7);
   }
+  #about-us .col-md-4{
+    text-align: center;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+  }
+  #about-us h2{
+    font-family: 'Courgette', cursive;
+    font-weight: bolder;
+    text-align: center;
+    padding: 20px;
+  }
+  #about-us p{
+  text-align: center;
+  font-family: 'Kanit', sans-serif;
+  font-size: 20px;
+  /* font-weight: bold; */
+  color: black;
+}
 /*image logo*/
 .logo {
   width: 10px;
