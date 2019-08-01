@@ -59,6 +59,13 @@
   background-size: cover;
   background-position: fixed;
 }
+.plumber {
+  padding: 0;
+  height: 500px;
+  background-image: url('../assets/plumber1/plumber html.jpg');
+  background-size: cover;
+  background-position: fixed;
+}
 
 .overlay {
   width: 100%;
