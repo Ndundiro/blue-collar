@@ -25,7 +25,8 @@ body{
     align-items: center;
     justify-content: center;
     color: white;
-}
+    background-position: center;
+}  
 #title{
     text-align: center;
 }
@@ -39,8 +40,8 @@ body{
  }
 /*image logo*/
 .logo{
-    width: 100px;
-    height: auto;
+    width: 10px;
+    height: 10px;
 
 }
 .nav-link{
