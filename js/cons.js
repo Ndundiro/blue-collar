@@ -1,11 +1,23 @@
 $(document).ready(function(){
-  $(".btn").click(function(){
-    $(".locations").slideDown(500);
+  $(".btn2").click(function(){
+    $(".locations").slideToggle(500);
     // $(".btn").click(function(){
     //   $(".locations").slideUp(500)
     // })
   })
+$(".sub").submit(function(){
+  event.preventDefault();
+  if($("#name").val() == ""){
+    alert("Your name is needed")
+    return false;
+  }
+  else if($("#email").val() == ""){
+    alert("Your email is needed")
+    return false;
 
+  }
+  alert("Thank you")
+})
   $("#umoja").click(function(){
       $(".locations").slideUp(400)
     $(".umoja").slideDown("slow")
