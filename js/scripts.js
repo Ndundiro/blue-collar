@@ -1,10 +1,13 @@
+
 var feedback = function(name, email, feedback) {
   this.name = name;
   this.email = email;
   this.feedback = feedback;
 }
 var usersFeed = []
+
 $(document).ready(function() {
+
   $("#nav-btn2").hide()
 
   $("#nav-btn").click(function() {
