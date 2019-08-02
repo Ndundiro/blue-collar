@@ -1,99 +1,241 @@
-
 /* // css file in div class-container fluid in services.html */
-
 /* // background image for the services  */
-
 /* // font family choosing google-fonts  */
-.jumbotron{
-    text-align:center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: lightblue;
-    font-size: 30px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+.top-s {
+  color: white;
+  text-align: center;
+  background-color: rgba(0, 26, 77);
 }
-h1{
-    font-family: 'Times New Roman', Times, serif;
-    font-size:30px;
-    text-align:center;  
+
+.jumbotron {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: lightblue;
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+.cust img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
 /* // images stylesfor the services (8 images) */
-
-#img-style{
-    width:250px;
-    height:200px;
-    /* float:right; */
-    /* padding:10px; */
+#img-style {
+  width: 250px;
+  height: 200px;
+  /* float:right; */
+  /* padding:10px; */
 }
+
+.services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.service .row {
+  padding: 20px;
+  margin: 0 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.serve {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  background: blue;
+  height: 270px;
+  width: 270px;
+}
+
+.serve1 {
+  background-image: url('../assets/plumber1/plumber1.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.serve2 {
+  background-image: url('../assets/carpenter/carpenter.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.serve3 {
+  background-image: url('../assets/electrician/electrician.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+.serve4 {
+  background-image: url('../assets/painters/painter2.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+.serve5 {
+  background-image: url('../assets/renovation/renovation1.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+.serve6 {
+  background-image: url('../assets/roofing/roofing2.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+.serve7 {
+  background-image: url('../assets/garden/gardener.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.serve8 {
+  background-image: url('../assets/welding/welding1.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
 /* // for done with the profesional workers heading  */
-#text-worker{
-    position: absolute;
-    text-align:right;
-    margin-left:70px;
-    font-family: 'Times New Roman', Times, serif;
-    margin-top:85px;
-    color:blue;
-    background-color:white; 
+#text-worker {
+  text-decoration: none;
+  padding: 10px;
+  text-align: center;
+  width: 270px;
+  color: white;
+  background-color: rgb(0, 26, 77)
 }
-.card-text{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.serve a{
+  text-decoration:none;
 }
-#text-worker:hover {
-    cursor: pointer;
-    text-decoration:underline;}
-.card-img-top{
-    width:200px;
-    height:220px;
-}
-.card-img-top{
-    background-color: transparent;
-    text-align: center;
-}
-#happy{
-    background-color: transparent;
-    text-align: center;
-}
-.card-title{
-    text-align: center;
-    /* color:lightblue; */
-}
-.service{
-    /* background-image:url(../assets/bk-g/bk-g122.jpeg); */
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-attachment: fixed;
+.card-text {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.comment{
-    text-align:center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+#text-worker:hover {
+  background: white;
+  color:rgb(0,26,77)
 }
-.card-title1{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size:30px;
-  
+
+.card-img-top {
+  width: 200px;
+  height: 220px;
 }
-.card-text{
-    color:rgb(0, 0, 0);
+
+.card-img-top {
+  background-color: transparent;
+  text-align: center;
+}
+
+#happy {
+  background-color: transparent;
+  text-align: center;
+}
+
+.card-title {
+  text-align: center;
+  /* color:lightblue; */
+}
+
+.service {
+  /* background-image:url(../assets/bk-g/bk-g122.jpeg); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.comment {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.card-title1 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 30px;
+}
+
+.card-text {
+  color: rgb(0, 0, 0);
 }
 
 #about-collar {
-    background-color: black;
-    color: white;
+  background-color: black;
+  color: white;
 }
 
+#blue-bk h3 {
+  font-family: 'Courgette', cursive;
+  padding: 20px;
+  text-align: center;
+}
+
+#happy h5 {
+  padding: 20px;
+}
+
+#blue-bk p {
+  letter-spacing: 1.5px;
+  line-height: 30px;
+  font-family: 'Kanit', sans-serif;
+}
+
+#happy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img {
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+  justify-content: center;
+  width: 250px;
+  height: 250px;
+  background-color: rgba(0, 26, 77, .2);
+  :
+}
+
+.cust-d {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.comment {
+  padding: 20px;
+  font-family: 'Courgette', cursive;
+
+}
+#about-collar{
+  padding: 20px;
+}
+.bottom{
+  text-align: center;
+  padding: 20px;
+  color:white;
+  background-color: rgb(0, 26, 77);
+}
 @media only screen and (min-device-width: 320px) and (max-device-width: 600px) {
-    #img-style{
-        width: 100%;
-        height: 300px;
-        margin-bottom:10px;
-    }
-    #text-worker{
-        position: absolute;
-        text-align:right;
-        margin-left:150px;
-        font-family: 'Times New Roman', Times, serif;
-        margin-top:85px;
-        color:blue;
-        background-color:white; 
-    }
+  #img-style {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 10px;
+  }
+
+
 }
