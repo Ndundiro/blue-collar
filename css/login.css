@@ -1,0 +1,140 @@
+.main{
+  display:flex;
+  padding: 0;
+  width: 100%;
+}
+/* .main2{
+  /* display: none; */
+/* } */
+.login-heading{
+  font-family: 'Courgette', cursive;
+  letter-spacing: 2px;
+}
+.login{
+  width:50%;
+  height: 100vh;
+  padding: 20px;
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+}
+.login p{
+  letter-spacing: 1.5px;
+}
+.login .form{
+  width: 100%;
+}
+.img{
+  width: 200px;
+  height: 200px;
+  margin-bottom:20px;
+  border-radius:50%;
+}
+.form input{
+  border:solid black 1px;
+  border-width:0 0 1px 0;
+  border-radius:0px;
+  background-color: rgba(0, 0, 0, 0.03);
+  color: black;
+
+}
+
+.pic{
+  background-image:url('../assets/worker.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 50%;
+}
+.overlay{
+  padding: 50px;
+  background-color: rgba(0,0,0,.95);
+  height: 100%;
+  font-style:italic;
+  text-align:;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.overlay h6{
+  color: white;
+  font-size: ;
+}
+ .overlay1{
+
+  background-color: rgba(0,0,0,.95);
+  height: 100%;
+  z-index: 3;
+}
+small span{
+  color: blue;
+}
+small span:hover{
+  text-decoration: underline;
+  cursor: pointer;8slideToggle
+}
+/* .target-signUp{
+  display: none;
+} */
+.signo{
+  width: 100%;
+  text-align: center;
+}
+#info{
+  color: black;
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 580px) {
+
+  .main{
+    display: block;
+    flex-direction: column;
+    background-image:url('../assets/worker-mobile.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index:-7;
+  }
+  .overlay2{
+    padding: 50px;
+    background-color: blue;
+    height: 100vh;
+    font-style:italic;
+    text-align:;
+    display: flex;
+    align-items: center;
+    justify-content: center;z-index: 3;
+  }
+  label{
+    color: white;
+  }
+  .login{
+    z-index: 3;
+    width: 100%;
+    padding: 10px;
+    height: 100%;
+  }
+  .login p{
+    text-align: center;
+    color: white;
+  }
+  .login h3{
+    color: white;
+  }
+  .pic{
+    display: none;
+    margin: 0;
+    height: 100vh;
+  }
+  .form input{
+    border:solid white 1px;
+    border-width:0 0 1px 0;
+    border-radius:0px;
+    background-color: rgba(0, 0, 0, 0.03);
+    color: white;
+    background-color: transparent;
+  }
+  #info{
+    color: white;
+  }
+}

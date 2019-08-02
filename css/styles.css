@@ -1,27 +1,285 @@
+html {
+  scroll-behavior: smooth;
+}
 
-/* // css file in div class-container fluid in services.html */
-
-/* // background image for the services  */
 body {
-    background-image:url(..)
-}
-/* /* // background image should be uniform **************** */
-
-/* // font family choosing google-fonts  */
-.jumbotron-fluid{
-    text-align:center;
-}
-h1{
-    font-family: 'Lacquer', sans-serif;
-    font-size:30px;
-    text-align:center;  
-}
-/* // images for the services (8 images) */
-#img-plumber,#img-carpenter,#img-electrican,#img-painter,#img-renovation1,#img-roofing2,#img-renovation1,#img-welding1{
-    width:290px;
-    height:500vh;
-}
-/* // images for done with the profesional workers  */
-#text-plumber,#text-carpenter,#text-electrican,#text-painter,#text-renovation1,#text-roofing2,#text-renovation1,#text-welding1{
+  font-family: sans-serif;
 }
 
+/* Top nav styles */
+a {
+  color: white;
+  /* font-family: monospace; */
+  font-size: 20px;
+}
+
+.topest {
+  padding: 0;
+  background-color: rgb(0, 26, 77);
+}
+
+#navbarNav li a {
+  font-size: 20px;
+  padding: 10px;
+}
+
+#navbarNav li a:hover {
+  background-color: white;
+}
+
+.navbar-nav {
+  background-color: rgb(0, 26, 77);
+}
+
+.navbar-nav:hover {
+  color: rgb(101, 230, 230);
+  border-radius: 60px;
+}
+
+.brand {
+  color: white;
+}
+
+#login {
+  float: right;
+}
+
+.mobile-nav {
+  display: none;
+  position: fixed;
+  background-color: rgb(0, 26, 77);
+  list-style: none;
+  justify-content: center;
+  z-index: 20;
+}
+
+.mobile-nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+#nav-btn , #nav-btn2{
+  display: none;
+  margin: 10px;
+}
+
+.mobile-nav li {
+  width: 100vw;
+  list-style: none;
+  text-align: center;
+  padding: 10px;
+}
+
+.mobile-nav li+:hover {
+  background-color: white;
+  color: rgb(0, 26, 77)
+}
+
+.mobile-nav a:hover {
+  text-decoration: none;
+  color: rgb(0, 26, 77)
+}
+
+/*End of Top nav styles */
+#services h2 {
+  font-style: italic;
+  text-align: center;
+  font-family: 'Courgette', cursive;
+  position: relative;
+  /* margin-left: 10px; */
+}
+#services .col-md-6{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+}
+
+.service-pic{
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  background:rgba(0,26,77,.2)
+}
+.workers{
+  /* display: flex; */
+}
+#title {
+  background-image: url("background.jpg");
+  background-size: cover;
+  height: 708px;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-position: center;
+}
+
+#title {
+  text-align: center;
+}
+
+#how-it-works h2 {
+  text-align: center;
+  font-size: 40px;
+  font-family: monospace;
+}
+  #services p{
+  text-align: justify;
+  letter-spacing: 1.5px;
+  line-height: 40px;
+  }
+  #how-it-works .col-md-7{
+    padding: 0;
+    border:20px solid rgb(0,0,0);
+    border-width:10px 0;
+  }
+  #how-works{
+    padding: 50px;
+    background: rgb(0,26,77);
+  }
+  #how-works h2{
+    font-family: 'Courgette', cursive;
+    color: white
+  }
+  #how-works li{
+    padding: 20px;
+    color: white;
+    font-style: italic;
+    text-transform: capitalize;
+  }
+  .how-img {
+    padding: 0;
+    background-color: blue;
+    background-image: url("../assets/dig.png");
+    background-position:left ;
+    background-size:cover;
+  }
+  .how-overlay{
+    height: 100%;
+    width:100%;
+    background-color: rgba(0,0,0,.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #login-btn2{
+    display: none;
+    background: rgb(0, 26, 77);
+    border-color:rgb(0, 26, 77);
+    border-radius: 0;
+  }
+  #login-btn2:hover{
+    color: rgb(0, 26, 77);
+    background: rgb(255, 255, 255);
+    border-color:rgb(255, 255, 255);
+  }
+  #about-us .col-md-4{
+    text-align: center;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+  }
+  #about-us h2{
+    font-family: 'Courgette', cursive;
+    font-weight: bolder;
+    text-align: center;
+    padding: 20px;
+  }
+  #about-us p{
+  text-align: center;
+  font-family: 'Kanit', sans-serif;
+  font-size: 20px;
+  /* font-weight: bold; */
+  color: black;
+}
+/*image logo*/
+.logo {
+  width: 10px;
+  height: 10px;
+}
+#contact-us .offset-md-1{
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  /* color: white; */
+  padding: 20px;
+
+}
+#contact-us .offset-md-1 p{
+  text-align: center;
+  letter-spacing: 2px;
+}
+#contact-us .offset-md-1 label{
+  letter-spacing: 2px;
+
+}
+#contact-us h2{
+  font-family: 'Courgette', cursive;
+  font-weight: bolder;
+  text-align: center;
+  padding: 0 20px;
+}#contact-us input{
+  background: transparent;
+  border-width: 0 0 2px 0;
+  border-radius: 0;
+}
+.cont-info{
+  background-image: url('../assets/contact.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0;
+}
+.overlay2{
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,.9);
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.overlay2 dl{
+display: none;
+}
+.overlay2 dt{
+  text-align: left;
+  padding: 0px;
+  color: white
+}
+.overlay2 dd{
+margin: -24px 25px;
+color:blue;
+}
+.cont-info img{
+  margin: 20px;
+}
+.icons {
+  background-color: rgb(26,26,26) ;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;;
+  align-items: center;
+  color: white
+}
+#social-icons img{
+  padding: 20px;
+}
+@media only screen and (min-device-width: 0px) and (max-device-width: 600px) {
+  #navbarNav {
+    display: none;
+  }
+
+  #nav-btn {
+    display: block;
+  }
+  .line{
+    display: none;
+  }
