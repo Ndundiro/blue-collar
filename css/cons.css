@@ -59,6 +59,46 @@
   background-size: cover;
   background-position: fixed;
 }
+.electrician{
+  padding: 0;
+  height: 500px;
+  background-image: url('https://images.unsplash.com/reserve/oIpwxeeSPy1cnwYpqJ1w_Dufer%20Collateral%20test.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');
+  background-size: cover;
+  background-position: fixed;
+}
+.whatsapp{
+  color: black;
+  text-decoration: none;
+}
+.plumber {
+  padding: 0;
+  height: 500px;
+  background-image: url('../assets/plumber1/plumber html.jpg');
+  background-size: cover;
+  background-position: fixed;
+}
+.painter{
+  padding: 0;
+  height: 500px;
+  background-image: url('../assets/painters/p.jpeg');
+  background-size: cover;
+  background-position: fixed;
+}
+.gardener {
+  padding: 0;
+  height: 500px;
+  background-image: url('../assets/gardener/gardener.jpg');
+  background-size: cover;
+  background-position: fixed;
+}
+.roofer{
+    padding: 0;
+    height: 500px;
+    background-image: url('../assets/roofing/roofer new.jpeg');
+    background-size: cover;
+    background-position: fixed;
+  
+}
 
 .overlay {
   width: 100%;
