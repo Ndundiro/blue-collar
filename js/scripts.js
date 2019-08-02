@@ -23,12 +23,15 @@ $(document).ready(function() {
     var name = $("#name").val();
     var email = $("#email").val();
     var msg = $("textarea").val();
-
+    var phone =$("#phone").val();
     if (name == "") {
       alert("Your name is required")
     } else if (email == "") {
       alert("Your email is required")
-    } else if (msg == "") {
+    }else if (phone == "") {
+      alert("Your Phone number is requireds")
+    }
+     else if (msg == "") {
       alert("Your feedback is required")
     } else {
       var newFeed = new feedback(name, email, msg);
