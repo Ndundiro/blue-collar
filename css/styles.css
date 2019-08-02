@@ -165,6 +165,20 @@ a {
     height: 100%;
     width:100%;
     background-color: rgba(0,0,0,.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #login-btn2{
+    display: none;
+    background: rgb(0, 26, 77);
+    border-color:rgb(0, 26, 77);
+    border-radius: 0; 
+  }
+  #login-btn2:hover{
+    color: rgb(0, 26, 77);
+    background: rgb(255, 255, 255);
+    border-color:rgb(255, 255, 255);
   }
   #about-us .col-md-4{
     text-align: center;
@@ -230,6 +244,9 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.overlay2 dl{
+display: none;
 }
 .overlay2 dt{
   text-align: left;

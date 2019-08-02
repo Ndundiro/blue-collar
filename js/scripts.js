@@ -17,6 +17,12 @@ $(document).ready(function() {
     $("#nav-btn2").hide()
       $("#nav-btn").show()
   })
+  $("#contact-us").hover(function(){
+    $(".overlay2 dl").slideToggle("slow")
+  })
+  $("#how-it-works").hover(function(){
+    $("#login-btn2").slideToggle("slow")
+  })
   $("#feedback").submit(function() {
     event.preventDefault();
 
