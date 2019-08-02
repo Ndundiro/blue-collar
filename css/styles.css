@@ -19,7 +19,7 @@ a {
 }
 
 #navbarNav li a {
-  font-size: 20px; 
+  font-size: 20px;
   padding: 10px;
 }
 
@@ -190,6 +190,58 @@ a {
 .logo {
   width: 10px;
   height: 10px;
+}
+#contact-us .offset-md-1{
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  /* color: white; */
+  padding: 20px;
+
+}
+#contact-us .offset-md-1 p{
+  text-align: center;
+  letter-spacing: 2px;
+}
+#contact-us .offset-md-1 label{
+  letter-spacing: 2px;
+
+}
+#contact-us h2{
+  font-family: 'Courgette', cursive;
+  font-weight: bolder;
+  text-align: center;
+  padding: 0 20px;
+}#contact-us input{
+  background: transparent;
+  border-width: 0 0 2px 0;
+  border-radius: 0;
+}
+.cont-info{
+  background-image: url('../assets/contact.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0;
+}
+.overlay2{
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,.9);
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.overlay2 dt{
+  text-align: left;
+  padding: 0px;
+  color: white
+}
+.overlay2 dd{
+margin: -24px 25px;
+color:blue;
+}
+.cont-info img{
+  margin: 20px;
 }
 
 @media only screen and (min-device-width: 0px) and (max-device-width: 600px) {
